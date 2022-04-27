@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  linebot:
+  - apiVersion: v2
+    appVersion: 1.16.2
+    created: "2022-04-27T13:43:22.642676254Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.15.2
+    description: linebot
+    digest: 42ac741430e66fbeb48c4db9e9fd5998a2b67a593ece78522744807d175d0bd1
+    name: linebot
+    type: application
+    urls:
+    - https://sean2525.github.io/Charts/linebot-0.1.7.tgz
+    version: 0.1.7
+  twlink:
+  - apiVersion: v2
+    appVersion: 1.16.2
+    created: "2022-04-27T13:43:22.650885678Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.15.2
+    description: 加密型實名制登記APP
+    digest: 62dcf4029ca3b4bd95d4f00cc34692c1bb4d7cf6f5d51a6d8c017cf74005d4c3
+    name: twlink
+    type: application
+    urls:
+    - https://sean2525.github.io/Charts/twlink-0.1.7.tgz
+    version: 0.1.7
+generated: "2022-04-27T13:43:22.636505884Z"
